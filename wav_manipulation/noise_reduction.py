@@ -175,33 +175,33 @@ def list_folder_noiser(folders, probability):
 
 
 if __name__ == '__main__':
-    # wav_dir = f'.\\..\\data\\training\\Actor_02\\'  # you can replace the relative path to dir which have audio
+    wav_dir = f'.\\..\\data\\training\\Actor_01\\'  # you can replace the relative path to dir which have audio
     path_noises = f'.\\noises'  # you can change the path to a dir which have noise
-    # folder_audio_noiser(0.2)
-    list_of_folders = [f'.\\..\\data\\training\\Actor_02',
-                       f'.\\..\\data\\training\\Actor_04',
-                       f'.\\..\\data\\training\\Actor_03',
-                       f'.\\..\\data\\training\\Actor_05',
-                       f'.\\..\\data\\training\\Actor_06',
-                       f'.\\..\\data\\training\\Actor_07',
-                       f'.\\..\\data\\training\\Actor_08',
-                       f'.\\..\\data\\training\\Actor_09',
-                       f'.\\..\\data\\training\\Actor_10',
-                       f'.\\..\\data\\training\\Actor_11',
-                       f'.\\..\\data\\training\\Actor_12',
-                       f'.\\..\\data\\training\\Actor_13',
-                       f'.\\..\\data\\training\\Actor_14',
-                       f'.\\..\\data\\training\\Actor_15',
-                       f'.\\..\\data\\training\\Actor_16',
-                       f'.\\..\\data\\training\\Actor_17',
-                       f'.\\..\\data\\training\\Actor_18',
-                       f'.\\..\\data\\training\\Actor_19',
-                       f'.\\..\\data\\training\\Actor_20',
-                       f'.\\..\\data\\training\\Actor_21',
-                       f'.\\..\\data\\training\\Actor_22',
-                       f'.\\..\\data\\training\\Actor_23',
-                       f'.\\..\\data\\training\\Actor_24',
-                       f'.\\..\\data\\training\\Actor_25',
-                       f'.\\..\\data\\training\\Actor_26',
-                       ]
-    list_folder_noiser(list_of_folders, probability=0.2)
+    folder_audio_noiser(0.2)
+    # list_of_folders = [f'.\\..\\data\\training\\Actor_02',
+    #                    f'.\\..\\data\\training\\Actor_04',
+    #                    f'.\\..\\data\\training\\Actor_03',
+    #                    f'.\\..\\data\\training\\Actor_05',
+    #                    f'.\\..\\data\\training\\Actor_06',
+    #                    f'.\\..\\data\\training\\Actor_07',
+    #                    f'.\\..\\data\\training\\Actor_08',
+    #                    f'.\\..\\data\\training\\Actor_09',
+    #                    f'.\\..\\data\\training\\Actor_10',
+    #                    f'.\\..\\data\\training\\Actor_11',
+    #                    f'.\\..\\data\\training\\Actor_12',
+    #                    f'.\\..\\data\\training\\Actor_13',
+    #                    f'.\\..\\data\\training\\Actor_14',
+    #                    f'.\\..\\data\\training\\Actor_15',
+    #                    f'.\\..\\data\\training\\Actor_16',
+    #                    f'.\\..\\data\\training\\Actor_17',
+    #                    f'.\\..\\data\\training\\Actor_18',
+    #                    f'.\\..\\data\\training\\Actor_19',
+    #                    f'.\\..\\data\\training\\Actor_20',
+    #                    f'.\\..\\data\\training\\Actor_21',
+    #                    f'.\\..\\data\\training\\Actor_22',
+    #                    f'.\\..\\data\\training\\Actor_23',
+    #                    f'.\\..\\data\\training\\Actor_24',
+    #                    f'.\\..\\data\\training\\Actor_25',
+    #                    f'.\\..\\data\\training\\Actor_26',
+    #                    ]
+    # list_folder_noiser(list_of_folders, probability=0.2)
