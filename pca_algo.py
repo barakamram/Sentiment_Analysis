@@ -50,7 +50,6 @@ class pca_algo:
         pca_algo.n_components = kl.knee
 
         print(f'Knee: {kl.knee}')
-        print(f'from {len(x)} to {kl.knee}')
         # print(f'{y[kl.knee] * 100: .3f}')
 
     # y helper

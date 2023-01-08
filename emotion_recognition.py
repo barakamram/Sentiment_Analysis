@@ -206,7 +206,6 @@ class EmotionRecognizer:
             # detach().cpu().numpy() --> numpy type: [[[ ... ]]]
             embeddings = classifier.encode_batch(signal).detach().cpu().numpy()
             feature = np.concatenate((feature, embeddings[0][0])).reshape(1, -1)
-
             feature = do_pca_predict_proba(feature)[0]
 
             proba = self.model.predict_proba(feature)[0]

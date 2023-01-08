@@ -273,6 +273,8 @@ def load_data(train_desc_files, test_desc_files, audio_config=None, classificati
     return {
         "X_train": train_features,
         "X_test": test_features,
+        # "X_train": np.array(audiogen.train_features),
+        # "X_test": np.array(audiogen.test_features),
         "y_train": np.array(audiogen.train_emotions),
         "y_test": np.array(audiogen.test_emotions),
         "train_audio_paths": audiogen.train_audio_paths,
